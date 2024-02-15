@@ -11,8 +11,8 @@ print('pa' in 'apple')
 print('-------2-------')
 print('a' in 'a')
 print('apple' in 'apple')
-print('' in 'a')
-print('' in 'apple')
+print('' in 'a') # true
+print('' in 'apple') # true
 
 print('-------3-------')
 print('x' not in 'apple')

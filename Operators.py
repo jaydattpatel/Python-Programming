@@ -22,20 +22,20 @@ print('Assignment Operators:')
 print('if value of a is 10 then')
 a = 10
 a += 2
-print('a+=2:',a )
+print('a+=2=',a )
 
 a = 10
 a /= 2
-print('a/=2:',a)
+print('a/=2=',a)
 
-print('2 ** 3 ** 2 :',2 ** 3 ** 2);     # the right-most ** operator gets done first!
-print('(2 ** 3) ** 2 :',(2 ** 3) ** 2);   # use parentheses to force the order you want!
-print('9 / 5 :',9 / 5);
-print('9 // 5 :',9 // 5); # '//' use to truncate floating point
-print('7.0 / 3.0 :',7.0 / 3.0);
-print('7.0 // 3.0 :',7.0 // 3.0);
-print('7.0 // 3 :',7.0 // 3);
-print('16 - 2 * 5 // 3 + 1 :',16 - 2 * 5 // 3 + 1);
+print('2 ** 3 ** 2 =',2 ** 3 ** 2);     # the right-most ** operator gets done first!
+print('(2 ** 3) ** 2 =',(2 ** 3) ** 2);   # use parentheses to force the order you want!
+print('9 / 5 =',9 / 5)
+print('9 // 5 =',9 // 5); # '//' use to truncate floating point
+print('7.0 / 3.0 =',7.0 / 3.0)
+print('7.0 // 3.0 =',7.0 // 3.0)
+print('7.0 // 3 =',7.0 // 3)
+print('16 - 2 * 5 // 3 + 1 =',16 - 2 * 5 // 3 + 1)
 
 
 print('Comparison Operators:')

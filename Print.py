@@ -30,6 +30,6 @@ print("Pi : {:.2f}".format(val))
 
 names = ["Alexey", "Catalina", "Misuki", "Pablo"]
 
-print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format(first = names[1], f_one = names[0], f_two = names[2], f_three = names[3]))
+print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format(f_three = names[3], first = names[1], f_one = names[0], f_two = names[2]))
 
  # error : 'The set is {​{​{}, {}​}​}.'.format(a, b)

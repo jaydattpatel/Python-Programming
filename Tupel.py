@@ -11,7 +11,7 @@ The key difference between lists and tuples is that a tuple is immutable, meanin
 below function not allowed in function if tupel list l1 :
 
     l1[0] = 3       -------not allowed to change data for tupel list
-    l1.reverse()    -------not allowed to reverde data for tupel list
+    l1.reverse()    -------not allowed to reverse data for tupel list
     l1.sort()       -------not allowed for tupel list
     l1.append()     -------not allowed for tupel list
     l1.inset()      -------not allowed for tupel list
@@ -34,8 +34,8 @@ print('len(tup): ', len(tup))
 cnt = tup.count(2)     # count specific data used in list array
 print('counts of 2 is :', cnt)
 
-dex = tup.index(3)     # get data specific position of L1 list
-print('index(4) :', dex)
+dex = tup.index(7)     # get index number of specific data of L1 list
+print('index(7) :', dex)
 
 sumofl1 = sum(tup)        # sumofL1 = L1[0] + L1[1] + L1[2] + L1[3] + L1[4] + L1[5] + L1[6] + L1[7] + L1[8]
 print('sum of L1 is',sumofl1)
@@ -46,7 +46,7 @@ def add(x, y):
 print(add(3, 4))
 z = (5, 4)
 #print(add(z))# this line causes an error
-print(add(*z)) # pass tuples to function argument
+print("add(*z) : ",add(*z)) # pass tuples to function argument
 
 
 def getTuples():

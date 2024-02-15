@@ -17,7 +17,7 @@ b = input("Enter the second value:") # data of input always will be string......
 y = int(b)    # so we need to convert string to integer
 
 z = (x + y)/2
-print('Average valur of x and y is',z)
+print('Average of x and y is',z)
 
 
 ### Fix Enter Input in integer and float............

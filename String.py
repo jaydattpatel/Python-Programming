@@ -13,7 +13,7 @@ print("len('ABCDE') : ",len('ABCDE'))
 ''' string slicing..............
 A   B   C   D   E  
 0   1   2   3   4 (print 0 to 4 means A-Z) 
--5  -4  -3  -2  -1 (print -5 to -1 means Z-A)  
+-5  -4  -3  -2  -1 (print -5 to -1 means A-Z)  
 '''
 
 print('\nget string from forward positive index..........................')
@@ -112,4 +112,4 @@ print("Pi : {:.2f}".format(val))
 
 names = ["Alexey", "Catalina", "Misuki", "Pablo"]
 
-print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format(first = names[1], f_one = names[0], f_two = names[2], f_three = names[3]))
+print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format( f_three = names[3], first = names[1], f_one = names[0], f_two = names[2]))
