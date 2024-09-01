@@ -1,5 +1,7 @@
-# Author : Jaydatt Patel
-# Decorators: In Python, decorators are a powerful feature that allows you to modify the behavior of a function or a method. They are a type of higher-order function, meaning they take a function as an argument and return a new function that can enhance or alter the behavior of the original function.
+'''
+Author : Jaydatt Patel
+Decorators: In Python, decorators are a powerful feature that allows you to modify the behavior of a function or a method. They are a type of higher-order function, meaning they take a function as an argument and return a new function that can enhance or alter the behavior of the original function.
+'''
 
 
 # defining decorator and its wrapper function

@@ -1,4 +1,7 @@
-# Escap sequences
+''' 
+author : Jaydatt
+string Escap sequences
+'''
 # \n = new line
 # \t = horizontal tab
 # \v = vertical tab

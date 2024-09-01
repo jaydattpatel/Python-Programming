@@ -1,7 +1,46 @@
-# string
+''' 
+author : Jaydatt
+string
+'''
+
+x = 2
+y = 6
+print(f'sum of {x} and {y} is {x+y}; product: {x*y}.')
+
+'''
+(string with {}....).format(ele1,ele2,.....)
+For two decimal places, put :.2f
+'''
+
+print('sum of {} and {} is {}; product: {}.'.format( x, y, x+y, x*y))
+
+
+
+val = 3.145131
+print("Pi : {:.2f}".format(val))
+
+
+names = ["Alexey", "Catalina", "Misuki", "Pablo"]
+
+print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format(f_three = names[3], first = names[1], f_one = names[0], f_two = names[2]))
+
+# error : 'The set is {​{​{}, {}​}​}.'.format(a, b)
+
+
+# %d for signed decimal numbers
+# %u for unsigned decimal numbers
+# %c for characters
+# %f for floating-point real numbers
+# %s for strings 
+string = 'Welcome'
+year = 2024
+print('%s Python %d'%(string, year))
+print('Python %c'%(year))
+print('Python %u'%(year))
+print('Python %f'%(year))
+
 
 # Joint strings............
-
 a = "Welcome to "
 b = 'World'
 print("concate:",a+b)
@@ -85,6 +124,10 @@ print('\nstr_s8.join(list1) : ',str_s9)
 str_s10 = "     Hello World !      "
 print("\nstr_s10.strip() : ",str_s10.strip())
 
+#using partition() method
+str_s11 = 'I loved the show'
+print("str_s11.partition('the') : ",str_s11.partition('the'))
+
 # comparison of value
 a = "banana"
 b = "banana"
@@ -95,21 +138,3 @@ print("(a == b) : ",(a == b))
 print("id(a) : ",id(a))
 print("id(b) : ",id(b))
 
-'''
-(string with {}....).format(ele1,ele2,.....)
-For two decimal places, put :.2f
-'''
-course = "python"
-year = 2024
-print("Welcome to {} in {}.".format(course,year))
-
-x = 2
-y = 6
-print('sum of {} and {} is {}; product: {}.'.format( x, y, x+y, x*y))
-
-val = 3.145131
-print("Pi : {:.2f}".format(val))
-
-names = ["Alexey", "Catalina", "Misuki", "Pablo"]
-
-print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format( f_three = names[3], first = names[1], f_one = names[0], f_two = names[2]))

@@ -1,3 +1,7 @@
+'''
+author : Jaydatt
+Loops with break and continue
+'''
 print("for loop break :-------")
 for i in range(10):
     print(i)
